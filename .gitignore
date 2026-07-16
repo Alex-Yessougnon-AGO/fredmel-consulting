@@ -1,0 +1,38 @@
+# Dépendances
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environnement
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Vercel
+.vercel
+
+# OS
+.DS_Store
+Thumbs.db
+*~
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+*.tmp
+
+# Fichiers temporaires
+*.bak
+*.backup

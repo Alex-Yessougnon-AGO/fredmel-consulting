@@ -1,0 +1,23 @@
+# Robots.txt pour FREDMEL CONSULTING
+# Version : 1.0
+# Date : 2026-07-15
+
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /pages/mentions-legales.html
+Disallow: /pages/politique-confidentialite.html
+Disallow: /pages/cgu.html
+
+# Sitemap
+Sitemap: https://fredmelconsulting.com/sitemap.xml
+
+# Délai entre requêtes (optionnel, en secondes)
+Crawl-delay: 1
+
+# Protection contre les mauvais bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
